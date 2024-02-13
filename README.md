@@ -34,6 +34,8 @@ make run
 
 ## Dependências (Composer, Make, Node 10 & NPM)
 
+### Ubuntu (v18.04 ou superior)
+
 ```
 wget https://getcomposer.org/download/latest-stable/composer.phar
 sudo mv composer.phar /usr/bin/composer && sudo chmod +x /usr/bin/
