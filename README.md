@@ -1,10 +1,10 @@
 # SPA
 
+Framework PHP para single-page-application (SPA)
+
 <p align="center">
 	<img src="spa.png" alt="SPA">
 </p>
-
-Framework PHP para single-page-application (SPA)
 
 ## Instalação
 
