@@ -1,7 +1,7 @@
 # SPA
 
 <p align="center">
-	![spa.png](spa.png)
+	<img src="spa.png" alt="SPA">
 </p>
 
 Framework PHP para single-page-application (SPA)
