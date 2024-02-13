@@ -1,4 +1,4 @@
-# Gaucho
+# SPA
 
 Framework PHP para single-page-application (SPA)
 
