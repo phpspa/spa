@@ -18,7 +18,7 @@ sudo npm -g install clean-css less terser
 ### 2) Arquivos base
 
 ```bash
-composer create-project gaucho/gaucho <nome do projeto>
+composer create-project spa/spa <nome do projeto>
 ```
 
 ### 3) Configurações (.env)
