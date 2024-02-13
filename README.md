@@ -8,7 +8,31 @@ Framework PHP para single-page-application (SPA)
 
 ## Instalação
 
-### 1) Dependências (Composer, Make, Node 10 & NPM)
+### 1) Criar projeto
+
+```bash
+composer create-project spa/spa <nome do projeto>
+```
+
+### 2) Configurações (.env)
+
+```
+cp .env.example .env && nano .env
+```
+
+### 3) Arquivos estáticos (SPA)
+
+```
+make static
+```
+
+### 4) Rodar localmente (via php built-in server)
+
+```
+make run
+```
+
+## Dependências (Composer, Make, Node 10 & NPM)
 
 ```
 wget https://getcomposer.org/download/latest-stable/composer.phar
@@ -17,28 +41,4 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo purge nodejs -y
 sudo apt-get install -y nodejs build-essential npm -y
 sudo npm -g install clean-css less terser
-```
-
-### 2) Arquivos base
-
-```bash
-composer create-project spa/spa <nome do projeto>
-```
-
-### 3) Configurações (.env)
-
-```
-cp .env.example .env && nano .env
-```
-
-### 4) Arquivos estáticos (SPA)
-
-```
-make static
-```
-
-### 5) Rodar localmente (via php built-in server)
-
-```
-make run
 ```
