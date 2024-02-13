@@ -3,6 +3,11 @@
     "description": "Single Page Application in PHP",
     "type": "project",
     "license": "MIT",
+    "autoload" : {
+        "psr-4" : {
+            "App\\": "app/"
+        }
+    },
     "authors": [
         {
             "name": "devgaucho",
