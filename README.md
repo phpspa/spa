@@ -1,5 +1,9 @@
 # SPA
 
+<p align="center">
+	![spa.png](SPA)
+</p>
+
 Framework PHP para single-page-application (SPA)
 
 ## Instalação
