@@ -1,0 +1,20 @@
+{
+    "name": "spa/spa",
+    "description": "Single Page Application in PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "devgaucho",
+            "email": "119246170+devgaucho@users.noreply.github.com"
+        }
+    ],
+    "keywords" : [
+        "framework",
+        "single-page-application",
+        "spa"
+    ],    
+    "require": {
+        "spa/core": "0.1.1"
+    }
+}

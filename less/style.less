@@ -1,0 +1,44 @@
+@import 'vars.less';
+@import 'inc/1k.less';
+@import 'inc/ph.less';
+
+a{
+	color:black;
+}
+
+a:hover{
+	color:blue;
+}
+
+body{
+	font-family: @fontFamily;
+}
+
+button,label{
+	cursor: pointer;
+}
+
+h1 a{
+	color:black;
+	text-decoration: none;
+}
+
+h1 a:hover{
+	text-decoration:underline;
+}
+
+form.vertical{
+	text-align: center;
+}
+
+form.vertical input,
+form.vertical label,
+form.vertical textarea{
+	display:block;
+	margin:0 auto 0.5em auto;
+	width: calc(100% - 10px);
+}
+
+label{
+	font-weight:bold;
+}
