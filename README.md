@@ -1,6 +1,5 @@
-# SPA
-
 <p align="center">
+	<h1>SPA</h1>
 	<img src="spa.png" alt="SPA">
 </p>
 
